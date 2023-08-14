@@ -26,11 +26,11 @@ if (document.title=='Item Status'){
 	
 switch (info1[4].children[1].textContent.trim()) {
 	case '21st Century Acad Acad WMS 21-22':
-	case '21st Century Car &amp; Gil 16-20':
-	case '21st Century NEMS &amp; Enlight 19-20':
-	case '21st Century Reed &amp; Duggan 16-1':
+	case '21st Century Car & Gil 16-20':
+	case '21st Century NEMS & Enlight 19-20':
+	case '21st Century Reed & Duggan 16-1':
 	case '21st Century Regan 1920':
-	case '21st Century Wash &amp; Driggs 19-20':
+	case '21st Century Wash & Driggs 19-20':
 	case 'Adult Ed Prov-Carryover':
 	case 'Adult Education-Provider 20-21':
 	case 'Adult Education-Provider 21-22':
