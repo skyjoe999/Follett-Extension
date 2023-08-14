@@ -1,0 +1,43 @@
+{
+	"manifest_version": 3,
+	"name": "Follett Addons",
+	"version": "1.0",
+	"description": "Adds features to speed up certain tasks in Follett",
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"content_scripts": [
+		{
+			"js": [
+				"Shortcut_Buttons/content.js",
+				"Status_Highlighter/content.js",
+				"Barcode_Hints/content.js",
+				"List_Rearranger/content.js",
+				"Button_Remover/content.js",
+				"Barcode_Buttons/content.js"
+			],
+			"matches": [
+				"https://waterbury.follettdestiny.com/*"
+			]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"Shortcut_Buttons/Working.png",
+				"Shortcut_Buttons/Retired.png",
+				"Shortcut_Buttons/Damaged.png",
+				"Barcode_Buttons/e.png",
+				"Barcode_Buttons/s.png",
+				"Barcode_Buttons/c.png",
+				"Barcode_Buttons/w.png",
+				"Barcode_Buttons/r.png",
+				"Barcode_Buttons/d.png"
+			],
+			"matches": [ "https://waterbury.follettdestiny.com/*" ]
+		}
+	]
+}
